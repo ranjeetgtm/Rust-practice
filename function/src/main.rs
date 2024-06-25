@@ -8,6 +8,9 @@ fn main() {
 
     //passing multiple parameter
     third_fn(42,'S');
+
+    //expression ex
+    ex();
 }
 
 //simple function
@@ -23,4 +26,14 @@ fn second_fn(x: i32) { // Add parameter to function definition
 // multiple params
 fn third_fn(x: i32, y: char) {
     println!("The value of x is - {x} and the value of y is - {y}");
+}
+
+// expression
+fn ex () {
+    let y = {
+        let x = 7;
+        x * 2
+    };
+
+    println!("value of y is - {}",y);
 }
