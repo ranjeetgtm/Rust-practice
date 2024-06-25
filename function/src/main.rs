@@ -11,6 +11,10 @@ fn main() {
 
     //expression ex
     ex();
+
+    //calling function
+    let xy = return_value();
+    println!("The value of xy is - {}",xy);
 }
 
 //simple function
@@ -36,4 +40,10 @@ fn ex () {
     };
 
     println!("value of y is - {}",y);
+}
+
+// return value
+
+fn return_value() -> i32 {
+    68+1
 }
