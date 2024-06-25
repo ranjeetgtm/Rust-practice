@@ -1,5 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Hey!");
 
     first_fn();
     second_fn(42); // Call second_fn with a parameter
@@ -12,5 +12,5 @@ fn first_fn() {
 
 //pass single parameter 
 fn second_fn(x: i32) { // Add parameter to function definition
-    println!("This is a function with a single parameter: {}", x);
+    println!("The value of x is - {}", x);
 }
