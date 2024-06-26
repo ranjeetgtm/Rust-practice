@@ -25,7 +25,12 @@ fn main() {
 
 //tuples
 
-let tup = (32,42,56);
+let mut tup: (i32,u8,f64) = (32,42,56.9);
 println!("{:?}", tup);
+println!("{}",tup.1);
+
+tup.0 = 69;
+println!("{:?}",tup);
+
 
 }
