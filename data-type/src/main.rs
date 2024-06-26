@@ -33,4 +33,11 @@ tup.0 = 69;
 println!("{:?}",tup);
 
 
+//arrays
+
+let a = [1,2,3,4,5];
+println!("{:?}", a);
+println!("{}",a[3]);
+
+
 }
